@@ -1,0 +1,114 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+nav{
+width: 100%;
+height: 20px;
+display: flex;
+padding: 40px;
+justify-content: space-between;
+background-color: blueviolet;
+}
+ul{
+display: flex;
+gap:30px;
+}
+.sag,.sol{
+color: white;
+font-size: 25px;
+}
+.bir{
+    width: 100%;
+    height: 600px;
+    padding: 40px;
+    background-color: black;
+}
+.bir1{
+    width: 60% ;
+    height: 350px;
+    margin-left: 220px;
+}
+.bir2{
+    width: 60% ;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 220px;
+}
+
+button{
+    font-size: 35px;
+    border-radius: 15px;
+}
+h1,p{
+text-align: center;
+color: white;
+padding-top: 80px;
+}
+.uc{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.uc1{
+    width: 340px;
+    height: 320px;
+}
+.a{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(71, 21, 219);
+}
+.b{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(85, 15, 213);
+}
+.c{
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(71, 21, 219);
+}
+.esas{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    background-color: brown;
+}
+.dord{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: blue;
+}
+.dord1{
+    width: 400px;
+    height: 700px;
+    background-color: beige;
+}
+.s{
+    width: 50px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: brown;
+}
+ul{
+    display: block;
+}
+.l{
+    font-size: 35px;
+    border-radius: 15px;
+    position: relative;
+    bottom: -200px;
+}
